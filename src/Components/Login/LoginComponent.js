@@ -71,7 +71,7 @@ export class LoginComponent extends React.Component {
                 <form>
                   <Row>
                     <label for id="user-name">
-                      <FaUser />
+                      <FaUser />&nbsp;
                     </label>
                     <input
                       id="user-name"
@@ -84,7 +84,7 @@ export class LoginComponent extends React.Component {
                   </Row>
                   <Row>
                     <label for id="password">
-                      <FaLock />
+                      <FaLock />&nbsp;
                     </label>
                     <input
                       id="password"
@@ -97,9 +97,9 @@ export class LoginComponent extends React.Component {
                   <input
                     type="checkbox"
                     className="password-show"
-                    id="Show password"
+                    id="show-password"
                   />
-                  <label for id="check">
+                  <label for id="show-password">
                     Show password
                   </label>
 
